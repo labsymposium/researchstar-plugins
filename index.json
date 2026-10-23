@@ -12,6 +12,15 @@
       "files": ["manifest.json", "agent.md"]
     },
     {
+      "id": "nia",
+      "kind": "agent",
+      "name": "Nia",
+      "version": "1.0.0",
+      "description": "Citation agent: reads reference-like text into clues for an exact lookup, and recommends real, verifiable papers for a claim.",
+      "path": "agents/nia",
+      "files": ["manifest.json", "agent.md"]
+    },
+    {
       "id": "nih-research-strategy",
       "kind": "template",
       "name": "NIH Research Strategy",
