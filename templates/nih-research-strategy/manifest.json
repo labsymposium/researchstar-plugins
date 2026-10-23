@@ -1,0 +1,21 @@
+{
+  "id": "nih-research-strategy",
+  "kind": "template",
+  "name": "NIH Research Strategy",
+  "version": "1.0.0",
+  "description": "Research Strategy for NIH R01-style applications.",
+  "author": "ResearchStar",
+  "license": "MIT",
+  "formats": { "typst": "main.typ", "latex": "main.tex" },
+  "citationFormat": "nature",
+  "csl": "nature.csl",
+  "requirements": {
+    "pageLimit": 12,
+    "paper": "us-letter",
+    "font": "Arial",
+    "fontSize": "11pt",
+    "margins": "0.5in",
+    "notes": "NIH requires Arial, Helvetica, Palatino Linotype or Georgia at 11 pt or larger, 0.5 in margins, no more than 15 characters per linear inch and 6 lines per vertical inch. The Research Strategy for an R01 is limited to 12 pages; the bibliography is a separate attachment and does not count."
+  },
+  "sections": ["Significance", "Innovation", "Approach"]
+}

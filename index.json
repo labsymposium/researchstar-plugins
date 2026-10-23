@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "name": "ResearchStar official plugins",
+  "plugins": [
+    {
+      "id": "tech-writer",
+      "kind": "agent",
+      "name": "Tech Writer",
+      "version": "1.0.0",
+      "description": "Proofread and finetune scientific prose following technical-writing principles: clear, concise, consistent terminology, active voice where it fits.",
+      "path": "agents/tech-writer",
+      "files": ["manifest.json", "agent.md"]
+    },
+    {
+      "id": "nih-research-strategy",
+      "kind": "template",
+      "name": "NIH Research Strategy",
+      "version": "1.0.0",
+      "description": "Research Strategy for NIH R01-style applications: 12 pages, Arial 11 pt, 0.5 in margins, Significance / Innovation / Approach, Nature-style numbered references.",
+      "path": "templates/nih-research-strategy",
+      "files": ["manifest.json", "main.typ", "main.tex", "README.md", "nature.csl"]
+    },
+    {
+      "id": "nature",
+      "kind": "citation-format",
+      "name": "Nature",
+      "version": "1.0.0",
+      "description": "Nature journal reference style (numbered, superscript in text). CSL from the Citation Style Language project, CC BY-SA 3.0.",
+      "path": "citation-formats/nature",
+      "files": ["manifest.json", "nature.csl"]
+    }
+  ]
+}

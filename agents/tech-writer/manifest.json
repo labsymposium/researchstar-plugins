@@ -1,0 +1,11 @@
+{
+  "id": "tech-writer",
+  "kind": "agent",
+  "name": "Tech Writer",
+  "version": "1.0.0",
+  "description": "Proofread and finetune scientific prose following technical-writing principles.",
+  "author": "ResearchStar",
+  "license": "MIT",
+  "prompt": "agent.md",
+  "actions": ["proofread", "finetune"]
+}

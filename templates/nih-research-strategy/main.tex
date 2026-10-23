@@ -1,0 +1,44 @@
+% NIH Research Strategy (R01-style). Limit: 12 pages, excluding references.
+% NIH format: Arial 11 pt, 0.5 in margins, US letter. Compile with XeLaTeX/Tectonic (fontspec).
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Arial}
+\usepackage{amsmath,graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage[super,numbers,sort&compress]{natbib} % Nature style: numbered superscript citations
+\usepackage{titlesec}
+\titleformat{\section}{\bfseries\MakeUppercase}{}{0em}{}
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+\titlespacing*{\section}{0pt}{1.2em}{0.6em}
+\titlespacing*{\subsection}{0pt}{1em}{0.4em}
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+\begin{document}
+
+\section*{Significance}
+Importance of the problem. Rigor of prior research. How the proposed work will change concepts, methods, technologies, treatments or services.
+
+\section*{Innovation}
+How the application challenges current paradigms or practice; novel concepts, approaches, methodologies, instrumentation or interventions.
+
+\section*{Approach}
+\subsection*{Overview and preliminary data}
+
+\subsection*{Aim 1.}
+\textbf{Rationale.}\\
+\textbf{Experimental design.}\\
+\textbf{Expected outcomes, potential problems and alternative strategies.}
+
+\subsection*{Aim 2.}
+
+\subsection*{Aim 3.}
+
+\subsection*{Rigor and reproducibility, timeline and milestones}
+
+% References Cited (separate attachment in the application; numbered in order of citation)
+\bibliographystyle{unsrtnat}
+\bibliography{refs}
+\end{document}
