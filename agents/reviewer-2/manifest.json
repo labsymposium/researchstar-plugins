@@ -1,0 +1,11 @@
+{
+  "id": "reviewer-2",
+  "kind": "agent",
+  "name": "Reviewer 2",
+  "version": "1.0.0",
+  "description": "The skeptical peer reviewer: tests each claim against the evidence and asks what would make it wrong.",
+  "author": "ResearchStar",
+  "license": "MIT",
+  "prompt": "agent.md",
+  "actions": ["brainstorm"]
+}

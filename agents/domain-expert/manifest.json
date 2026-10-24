@@ -1,0 +1,11 @@
+{
+  "id": "domain-expert",
+  "kind": "agent",
+  "name": "Domain expert",
+  "version": "1.0.0",
+  "description": "The field expert: brings mechanisms, key findings and the caveats the field knows about.",
+  "author": "ResearchStar",
+  "license": "MIT",
+  "prompt": "agent.md",
+  "actions": ["brainstorm"]
+}

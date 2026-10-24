@@ -1,0 +1,11 @@
+{
+  "id": "editor",
+  "kind": "agent",
+  "name": "Editor",
+  "version": "1.0.0",
+  "description": "The editor: pushes for one clear, precise, well-hedged statement a reader can follow.",
+  "author": "ResearchStar",
+  "license": "MIT",
+  "prompt": "agent.md",
+  "actions": ["brainstorm"]
+}
