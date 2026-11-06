@@ -58,11 +58,11 @@
     },
     {
       "id": "nature",
-      "kind": "citation-format",
+      "kind": "citation-style",
       "name": "Nature",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Nature journal reference style (numbered, superscript in text). CSL from the Citation Style Language project, CC BY-SA 3.0.",
-      "path": "citation-formats/nature",
+      "path": "citation-styles/nature",
       "files": ["manifest.json", "nature.csl"]
     }
   ]

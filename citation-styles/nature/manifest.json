@@ -1,12 +1,13 @@
 {
   "id": "nature",
-  "kind": "citation-format",
+  "kind": "citation-style",
   "name": "Nature",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nature journal reference style (numbered, superscript in text).",
   "author": "Citation Style Language project (Michael Berkowitz and contributors)",
   "license": "CC BY-SA 3.0",
   "csl": "nature.csl",
+  "journal": "nature",
   "typstStyle": "nature",
   "homepage": "https://github.com/citation-style-language/styles"
 }
